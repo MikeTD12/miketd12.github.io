@@ -20,3 +20,9 @@ footer {
   padding: 10px;
   text-align: center;
 }
+/* Temporary styling for the ad container */
+#adsbygoogle {
+  border: 1px dashed red; /* Add a dashed red border */
+  background-color: #f9f9f9; /* Add a light background color */
+  min-height: 100px; /* Set a minimum height for visibility */
+}
