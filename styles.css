@@ -10,9 +10,34 @@ header {
   text-align: center;
 }
 
-section {
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #0071bc;
+}
+
+main {
   margin: 20px;
-  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
 }
 
 footer {
@@ -20,9 +45,10 @@ footer {
   padding: 10px;
   text-align: center;
 }
-/* Temporary styling for the ad container */
+
 #ad-container {
-  border: 1px dashed red; /* Add a dashed red border */
-  background-color: #f9f9f9; /* Add a light background color */
-  min-height: 100px; /* Set a minimum height for visibility */
+  border: 1px dashed red;
+  background-color: #f9f9f9;
+  min-height: 100px;
+  margin: 20px;
 }
