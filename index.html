@@ -3,48 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ad Lifecycle Demo</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #f1f1f1;
-      padding: 20px;
-      text-align: center;
-    }
-
-    section {
-      margin: 20px;
-      text-align: center;
-    }
-
-    footer {
-      background-color: #f1f1f1;
-      padding: 10px;
-      text-align: center;
-    }
-
-    /* Temporary styling for the ad container */
-    #ad-container {
-      border: 1px dashed red;
-      background-color: #f9f9f9;
-      min-height: 100px;
-    }
-  </style>
+  <title>Buffalo Bills Fan Blog</title>
+  <link rel="stylesheet" href="styles.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7591628122953892"
      crossorigin="anonymous"></script>
 </head>
 <body>
   <header>
-    <h1>Welcome to the Ad Lifecycle Demo</h1>
+    <h1>Buffalo Bills Fan Blog</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Roster</a>
+      <a href="#">Schedule</a>
+    </nav>
   </header>
-  <section>
-    <p>In this demo, you will see an ad placement served using Google AdSense.</p>
-  </section>
+  <main>
+    <section>
+      <h2>Josh Allen: The Future of the Buffalo Bills</h2>
+      <p>Josh Allen, the star quarterback for the Buffalo Bills, has taken the NFL by storm since being drafted in 2018...</p>
+      <img src="josh-allen.jpg" alt="Josh Allen in action">
+    </section>
+    <!-- More content sections -->
+  </main>
   <section id="ad-container">
     <ins class="adsbygoogle"
          style="display:block"
@@ -57,7 +38,65 @@
     </script>
   </section>
   <footer>
-    <p>Ad Lifecycle Demo &copy; 2023</p>
+    <p>Buffalo Bills Fan Blog &copy; 2023</p>
   </footer>
 </body>
 </html>
+CSS file:
+
+css
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #0071bc;
+}
+
+main {
+  margin: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+#ad-container {
+  border: 1px dashed red;
+  background-color: #f9f9f9;
+  min-height: 100px;
+  margin: 20px;
+}
