@@ -59,7 +59,38 @@ document.addEventListener('DOMContentLoaded', function () {
   `;
 
   const scheduleContent = `
-    <!-- Add the content of the Schedule section here -->
+    <h2>Buffalo Bills 2023 Schedule</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Week</th>
+        <th>Date</th>
+        <th>Opponent</th>
+        <th>Location</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>September 10, 2023</td>
+        <td>New England Patriots</td>
+        <td>Highmark Stadium</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>September 17, 2023</td>
+        <td>Miami Dolphins</td>
+        <td>Hard Rock Stadium</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>September 24, 2023</td>
+        <td>New York Jets</td>
+        <td>Highmark Stadium</td>
+      </tr>
+      <!-- Add more games as needed -->
+    </tbody>
+  </table>
   `;
 
   const contentSection = document.getElementById('content');
