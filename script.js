@@ -5,7 +5,22 @@ document.addEventListener('DOMContentLoaded', function () {
 <img src="buffalo-bills-stadium.jpg" alt="Buffalo Bills Stadium">`;
 
   const newsContent = `
-    <!-- Add the content of the News section here -->
+        <h2>Latest News</h2>
+    <article>
+      <h3>Josh Allen: The Future of the Buffalo Bills</h3>
+      <p>Josh Allen, the star quarterback for the Buffalo Bills, has taken the NFL by storm since being drafted in 2018. With his powerful arm and exceptional athleticism, Allen has quickly become one of the league's top quarterbacks and a fan favorite in Buffalo.</p>
+      <img src="josh-allen.jpg" alt="Josh Allen in action">
+    </article>
+    <article>
+      <h3>Buffalo Bills' Offseason Moves: Strengthening the Roster</h3>
+      <p>The Buffalo Bills made some significant offseason moves, bolstering their roster with key acquisitions and draft picks. With an eye on building a championship-caliber team, General Manager Brandon Beane and Head Coach Sean McDermott focused on addressing areas of need and adding depth to the roster.</p>
+      <img src="bills-offseason.jpg" alt="Buffalo Bills players during offseason training">
+    </article>
+    <article>
+      <h3>Sean McDermott: The Coach Behind the Bills' Resurgence</h3>
+      <p>Since his arrival in 2017, head coach Sean McDermott has played a pivotal role in transforming the Buffalo Bills into a formidable NFL team. With a strong emphasis on culture, accountability, and attention to detail, McDermott has instilled a winning mentality in Buffalo that has resonated with players and fans alike.</p>
+      <img src="sean-mcdermott.jpg" alt="Sean McDermott on the sidelines">
+    </article>
   `;
 
   const rosterContent = `
