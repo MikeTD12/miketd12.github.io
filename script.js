@@ -24,7 +24,38 @@ document.addEventListener('DOMContentLoaded', function () {
   `;
 
   const rosterContent = `
-    <!-- Add the content of the Roster section here -->
+      <h2>Buffalo Bills Roster</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Position</th>
+        <th>Name</th>
+        <th>Number</th>
+        <th>College</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>QB</td>
+        <td>Josh Allen</td>
+        <td>17</td>
+        <td>Wyoming</td>
+      </tr>
+      <tr>
+        <td>RB</td>
+        <td>Devin Singletary</td>
+        <td>26</td>
+        <td>Florida Atlantic</td>
+      </tr>
+      <tr>
+        <td>WR</td>
+        <td>Stefon Diggs</td>
+        <td>14</td>
+        <td>Maryland</td>
+      </tr>
+      <!-- Add more players as needed -->
+    </tbody>
+  </table>
   `;
 
   const scheduleContent = `
